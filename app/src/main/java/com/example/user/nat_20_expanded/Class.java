@@ -2,12 +2,7 @@ package com.example.user.nat_20_expanded;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.view.Window;
-import android.widget.Button;
-import android.app.Activity;
 
 public class Class extends AppCompatActivity {
     String tag = "Lifecycle Step";
@@ -15,7 +10,7 @@ public class Class extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_class);
+        setContentView(R.layout.MainMenu);
         Log.d(tag, "in the onCreate () event");
     }
     public void onStart()
