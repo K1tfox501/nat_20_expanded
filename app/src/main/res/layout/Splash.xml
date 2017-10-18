@@ -8,4 +8,19 @@
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="219dp"
+        android:layout_height="101dp"
+        android:text="test splash"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="371dp"
+        android:layout_height="479dp"
+        app:srcCompat="@color/colorAccent"
+        tools:layout_editor_absoluteY="82dp"
+        tools:layout_editor_absoluteX="7dp" />
 </android.support.constraint.ConstraintLayout>
