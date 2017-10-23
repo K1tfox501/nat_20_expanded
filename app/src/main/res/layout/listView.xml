@@ -10,17 +10,32 @@
 
     <TextView
         android:id="@+id/Description"
-        android:layout_width="287dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/Picture"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="14dp" />
 
     <ImageView
         android:id="@+id/Picture"
         android:layout_width="52dp"
-        android:layout_height="47dp"
+        android:layout_height="0dp"
         app:srcCompat="@android:drawable/ic_delete"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Description"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Description"
+        android:layout_marginLeft="16dp" />
 </android.support.constraint.ConstraintLayout>
